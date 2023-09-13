@@ -1,4 +1,9 @@
 @font-face {
+  font-family: "Proxima Nova Regular";
+  src: url(../fontes/Proxima\ Nova\ Regular.ttf);
+}
+
+@font-face {
   font-family: alpinist;
   src: url(../fontes/alpinistbold.ttf);
 }
@@ -22,7 +27,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: alpinist, corbenbold, alpinistregular, corbenregular;
+  font-family: 'Proxima Nova Regular', Helvetica;
+  /* font-family: alpinist, corbenbold, alpinistregular, corbenregular; */
   /* font-family: 'Open Sans', sans-serif; */
   color: #444444;
 }
