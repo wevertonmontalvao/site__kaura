@@ -368,7 +368,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: calc(100vh + 72px);
+  height: calc(80vh + 72px);
   background-color: rgba(0, 0, 0, 0.8);
   overflow: hidden;
   margin-top: -72px;
@@ -376,7 +376,7 @@ h6 {
 
 #hero .carousel-item {
   width: 100%;
-  height: calc(100vh + 72px);
+  height: calc(80vh + 72px);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
