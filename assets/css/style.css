@@ -1653,3 +1653,43 @@ nav ul li a::before {
 nav ul li a:hover::before {
   width: 100%; /* Ampliar a largura para 100% ao passar o mouse */
 }
+
+
+
+
+
+
+/* Adicione este código CSS ao seu arquivo */
+.card {
+  position: relative;
+}
+
+.card .logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 78, 67, 0.7);
+  pointer-events: none;
+  transition: background 0.5s ease;
+  z-index: 1; /* Garante que a overlay fique por trás da logo */
+}
+
+.card:hover::before {
+  background: rgba(0, 78, 67, 0);
+}
+
+.card:hover .logo img {
+  opacity: 0; /* A logo fica completamente transparente ao passar o mouse */
+  transition: opacity 0.5s ease; /* Transição suave da opacidade da logo */
+}
