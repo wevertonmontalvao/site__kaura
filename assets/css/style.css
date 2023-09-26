@@ -1660,8 +1660,25 @@ nav ul li a:hover::before {
 
 
 /* Adicione este código CSS ao seu arquivo */
+.cards .container .row {
+  justify-content: center;
+ 
+}
+
+.container-card {
+  padding-right: 1px;
+  padding-left: 1px;
+  width: 18%;
+
+}
+
+.container-card:hover {
+  width: 28%;
+  
+}
+
 .card {
-  position: relative;
+  position: relative;  
 }
 
 .card .logo {
