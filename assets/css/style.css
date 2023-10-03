@@ -407,6 +407,10 @@ h6 {
   text-align: center;
 }
 
+.carousel-content img {
+  width: 10vh;
+}
+
 #hero h2 {
   color: rgb(231, 143, 36);
   /* color: rgb(12, 102, 90); */
@@ -671,8 +675,8 @@ section {
 .cards img {
   border-radius: 0;
   -webkit-filter: drop-shadow(5px 5px 5px white);
-    filter: drop-shadow(1px 1px 4px white);
-    height: 60px;
+    filter: drop-shadow(1px 1px 50px white);
+    height: 90px;
 }
 
 .cards .card {
