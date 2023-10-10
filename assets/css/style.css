@@ -1704,7 +1704,8 @@ nav ul li a:hover::before {
   top: 70%; /* Ajuste a posição conforme necessário */
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(242, 240, 238);
+  color: #000;
+  text-shadow: white 1px 1px 1px;
   z-index: 1; /* Z-index menor para ficar atrás da logo */
   opacity: 1;
   transition: opacity 0.5s ease;
@@ -1726,37 +1727,37 @@ nav ul li a:hover::before {
 }
 
 #card5::before{
-  background: rgba(80, 47, 0);
+  background: #F2F2F2;
 }
 #card5:hover::before {
-  background: rgba(80, 47, 0, 0.6);
+  background: #F2F2F2;
 }
 
 #card4::before{
-  background: rgb(168, 102, 10);
+  background: #BF7636;
 }
 #card4:hover::before {
-  background: rgb(168, 102, 10, 0.6);
+  background: rgb(191, 118, 54, 0.6);
 }
 #card3::before{
-  background: rgb(3, 73, 16);
+  background: #252623;
 }
 #card3:hover::before {
-  background: rgb(3, 73, 16, 0.6);
+  background: rgb(37, 38, 35, 0.6);
 }
 
 #card2::before{
-  background: rgb(0, 86, 74);
+  background: #81A69B;
 }
 #card2:hover::before {
-  background: rgb(0, 86, 74, 0.6);
+  background: #81a69b99;
 }
 
 #card1::before{
-  background: rgb(0, 0, 0);
+  background: #025949;
 }
 #card1:hover::before {
-  background: rgb(0, 0, 0, 0.6);
+  background: #02594999;
 }
 
 .card:hover .logo img,
