@@ -1769,3 +1769,48 @@ nav ul li a:hover::before {
   opacity: 0;
   transition: opacity 0.5s ease;
 }
+
+
+
+/* aqui começa a área de mercados */
+
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.master {
+  width: 60%;
+  margin: auto;
+  color:  #d0aa7c; /* Cor do texto descritivo */
+  font-size: 30px;
+}
+
+.atividade {
+    display: inline-block;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.atividade:hover {
+    transform: scale(1.05);
+}
+
+.icone {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #3498db; /* Cor do ícone */
+}
+
+h3 {
+    font-size: 24px;
+    margin: 0 0 10px;
+    color: #333; /* Cor do título */
+}
+
