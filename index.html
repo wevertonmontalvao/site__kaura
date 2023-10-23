@@ -80,21 +80,8 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li class="dropdown">
-            <a href="#cards">
+            <a onclick="showQuemSomos()">
               <span>Quem Somos</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="automacaopredial.html">Automação Predial</a></li>
-              <li><a href="automacaoindustrial.html">Automação Industrial</a></li>
-              <li><a href="eficienciaenergetica.html">Eficiência Energética</a></li>
-              <li><a href="energiasolar.html">Energia Solar</a></li>
-              <li><a href="financiamento.html">Financiamento</a></li>
-              <li><a href="instalacoeseletricas.html">Instalações Elétricas</a></li>
-              <li><a href="laudoseconsultoria.html">Laudos e Consultoria</a></li>
-              <li><a href="produtos.html">Produtos</a></li>
-              <li><a href="projetoseletricos.html">Projetos Elétricos</a></li>
-              <li><a href="projetosspda.html">Projetos SPDA (Para-Raios)</a></li>
-              <li><a href="termografia.html">Termografia</a></li>
-            </ul>
           </li>
           <li><a class="nav-link scrollto" href="#about">Pra Você</a></li>
           <li><a class="nav-link scrollto" href="#team">Para Empresas</a></li>
@@ -112,6 +99,91 @@
       <!-- .navbar -->
     </div>
   </header>
+<section id="menu-grid" class="menu-grid">
+  <div class="hero-container">
+    <div class="row">
+      <div class="col-11 title-menu-grid">
+        <h1>Quem Somos</h1>
+      </div>
+      <div class="col-1" onclick="hideQuemSomos()">
+        <h2>X</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <div class="menu-grid-item">
+          <h2>Automação Predial</h2>
+          <a href="automacaopredial.html"><span class="saibamais">Saiba mais</span></a>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="menu-grid-item">
+          <h2>Automação Industrial</h2>
+          <a href="automacaoindustrial.html"><span class="saibamais">Saiba mais</span></a>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="menu-grid-item">
+          <h2>Eficiência Energética</h2>
+          <a href="eficienciaenergetica.html"><span class="saibamais">Saiba mais</span></a>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="menu-grid-item">
+          <h2>Energia Solar</h2>
+          <a href="energiasolar.html"><span class="saibamais">Saiba mais</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <div class="menu-grid-item">
+          <h2>Financiamento</h2>
+          <a href="financiamento.html"><span class="saibamais">Saiba mais</span></a>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="menu-grid-item">
+          <h2>Instalações Elétricas</h2>
+          <a href="instalacoeseletricas.html"><span class="saibamais">Saiba mais</span></a>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="menu-grid-item">
+          <h2>Laudos e Consultoria</h2>
+          <a href="laudoseconsultoria.html"><span class="saibamais">Saiba mais</span></a>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="menu-grid-item">
+          <h2>Produtos</h2>
+          <a href="produtos.html"><span class="saibamais">Saiba mais</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <div class="menu-grid-item">
+          <h2>Projetos Elétricos</h2>
+          <a href="projetoseletricos.html"><span class="saibamais">Saiba mais</span></a>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="menu-grid-item">
+          <h2>Projetos SPDA (Para-Raios)</h2>
+          <a href="projetosspda.html"><span class="saibamais">Saiba mais</span></a>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="menu-grid-item">
+          <h2>Termografia</h2>
+          <a href="termografia.html"><span class="saibamais">Saiba mais</span></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
   <!-- End Header -->
 
   <!-- ======= Carrosel Section ======= -->
@@ -1108,6 +1180,33 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <script>
+    function showElements() {
+        var elementsToDisplay = document.querySelectorAll('#hero, #main, #footer');
+        for (var i = 0; i < elementsToDisplay.length; i++) {
+            elementsToDisplay[i].style.display = 'block';
+        }
+    }
+
+    function hideElements() {
+        var elementsToHide = document.querySelectorAll('#hero, #main, #footer');
+        for (var i = 0; i < elementsToHide.length; i++) {
+            elementsToHide[i].style.display = 'none';
+        }
+    }
+
+    function showQuemSomos(){
+      hideElements();
+      var menuquemsomos = document.getElementById("menu-grid");
+      menuquemsomos.style.display = 'block';
+    }
+
+    function hideQuemSomos(){
+      var menuquemsomos = document.getElementById("menu-grid");
+      menuquemsomos.style.display = 'none';
+      showElements();
+    }
+  </script>
   
 </body>
 

@@ -1814,3 +1814,37 @@ h3 {
     color: #333; /* Cor do título */
 }
 
+.menu-grid{
+  display: none;
+  height: calc(80vh + 72px);
+  overflow: hidden;
+  margin: 20px;
+}
+
+
+
+.menu-grid-item {
+  border-radius: 10px;
+  border: 1px solid #008e8e;
+  text-align: start;
+  padding: 20px;
+  height: 130px;
+  margin-bottom: 20px;
+}
+
+.menu-grid-item h2 {
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+
+.menu-grid-item .saibamais{
+  color: #025949;
+  font-weight: bold;
+}
+
+.title-menu-grid{
+  text-align: start;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
