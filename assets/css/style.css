@@ -1785,17 +1785,22 @@ body {
   margin: auto;
   color:  #d0aa7c; /* Cor do texto descritivo */
   font-size: 30px;
+  color: #025949;
 }
 
 .atividade {
     display: inline-block;
     width: 200px;
+    height: 130px;
     background-color: #fff;
     border-radius: 10px;
     padding: 20px;
-    margin: 20px;
+    margin: 15px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
+    /* border: 1px solid #008e8e;; */
+    background-color:  #fff ;
+    
 }
 
 .atividade:hover {
@@ -1803,16 +1808,39 @@ body {
 }
 
 .icone {
-    font-size: 48px;
+    font-size:  30px;
     margin-bottom: 10px;
-    color: #3498db; /* Cor do ícone */
+    color: #3498db; 
 }
 
 h3 {
     font-size: 17px;
     margin: 0 0 10px;
-    color: #333; /* Cor do título */
+    color:  #025949;
 }
+
+.meu-botao {
+  display: inline-block;
+  padding: 12px 24px;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #008e8e;
+  color: #ffffff;
+  border: 2px solid #025949;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.meu-botao:hover {
+  background-color: #025949;
+}
+
+
+/* menu navbar */
 
 .menu-grid{
   display: none;
