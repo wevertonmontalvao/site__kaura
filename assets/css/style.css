@@ -1781,6 +1781,30 @@ body {
     
 }
 
+#master-mercados {
+  
+  display: flex;
+ flex-direction: column;
+ margin-left: 22%;
+ margin-top: 30px; 
+}
+
+#master-mercados h3 {
+ text-justify: auto;
+}
+
+#atividade {
+ width: 30%;
+ height: 10vh;
+ margin-bottom: 0px;
+}
+
+#icone-2{
+  margin-right: 70%;
+}
+
+
+
 .master {
   width: 40%;
   margin: auto;
