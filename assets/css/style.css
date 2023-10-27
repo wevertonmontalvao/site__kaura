@@ -1789,18 +1789,26 @@ body {
  margin-top: 30px; 
 }
 
-#master-mercados h3 {
- text-justify: auto;
-}
+
 
 #atividade {
- width: 30%;
- height: 10vh;
+ width: 5px;
+ height: 8vh;
  margin-bottom: 0px;
+ border-radius: 10px; 
+ background-color: #f9f9f9; 
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+ width: 19%; 
+ display: flex; /* Adiciona flexbox para alinhar itens */
+ align-items: center; /* Centraliza verticalmente */
+ justify-content: space-evenly; /* Espaço igual entre os elementos */
+ 
 }
 
 #icone-2{
-  margin-right: 70%;
+  /* margin-right: 70%; */
+
+  
 }
 
 
@@ -1903,5 +1911,24 @@ h3 {
   text-align: start;
   margin-top: 5px;
   margin-bottom: 20px;
+}
+
+.container-1 {
+
+}
+
+
+
+.container-2 {
+  border: 1px solid #008e8e;;
+  width: 50%;
+  height: 50vh;
+  padding: 100px;
+  margin-top: 50px ;
+  margin-left: 35%;
+  
+
+  
+ 
 }
 
