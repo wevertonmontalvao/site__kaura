@@ -1814,7 +1814,7 @@ body {
 
 
 .master {
-  width: 40%;
+  width: 90%;
   margin: auto;
   color:  #d0aa7c; /* Cor do texto descritivo */
   font-size: 30px;
@@ -1912,13 +1912,6 @@ h3 {
   margin-top: 5px;
   margin-bottom: 20px;
 }
-
-.container-1 {
-
-}
-
-
-
 .container-2 {
   border: 1px solid #008e8e;;
   width: 50%;
@@ -1926,9 +1919,17 @@ h3 {
   padding: 100px;
   margin-top: 50px ;
   margin-left: 35%;
-  
-
-  
- 
 }
+
+.mercados{
+  padding-top: 80px;
+}
+
+.mercados .row{
+  justify-content: center;
+}
+
+
+
+
 

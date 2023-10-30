@@ -221,4 +221,32 @@
     });
   }
 
-})()
+  
+
+})();
+
+function showElements() {
+  var elementsToDisplay = document.querySelectorAll('#hero, #main, #footer');
+  for (var i = 0; i < elementsToDisplay.length; i++) {
+      elementsToDisplay[i].style.display = 'block';
+  }
+}
+
+function hideElements() {
+  var elementsToHide = document.querySelectorAll('#hero, #main, #footer');
+  for (var i = 0; i < elementsToHide.length; i++) {
+      elementsToHide[i].style.display = 'none';
+  }
+}
+
+function showQuemSomos(){
+hideElements();
+var menuquemsomos = document.getElementById("menu-grid");
+menuquemsomos.style.display = 'block';
+}
+
+function hideQuemSomos(){
+var menuquemsomos = document.getElementById("menu-grid");
+menuquemsomos.style.display = 'none';
+showElements();
+}
