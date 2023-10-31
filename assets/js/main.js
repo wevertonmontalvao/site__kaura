@@ -250,3 +250,36 @@ var menuquemsomos = document.getElementById("menu-grid");
 menuquemsomos.style.display = 'none';
 showElements();
 }
+
+
+
+
+const carousel = document.querySelector('.carousel-2');
+
+function cloneLogos() {
+    const logos = document.querySelectorAll('.logo-2');
+    logos.forEach(logo => {
+        const clone = logo.cloneNode(true);
+        carousel.appendChild(clone);
+    });
+}
+
+window.onload = function() {
+    cloneLogos();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

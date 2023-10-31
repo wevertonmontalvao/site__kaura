@@ -47,7 +47,7 @@
 
             return false;
         }
-        
+
         if(typeof userSettings == "string") {
             settings.get = userSettings;
         }
@@ -87,7 +87,7 @@
             } else {
                 return post.thumbnail_resources[0].src;
             }
-            
+
         };
 
         const buildTemplate = function(post) {
@@ -116,12 +116,12 @@
         const generateHtml = function(ajaxResult) {
             let html = "";
             let postsObject = {};
-            
+
             switch (settings.type) {
                 case "user":
                     postsObject = ajaxResult.edge_owner_to_timeline_media;
                     break;
-            
+
                 default:
                     postsObject = ajaxResult.edge_hashtag_to_media;
                     break;
@@ -140,14 +140,14 @@
                         tempHtml = buildTemplate(post);
                     } else {
                         tempHtml = "<img src='" + getImageSize(post) + "' alt='" + post.accessibility_caption + "'>"
-                    
+
                         if(settings.link) {
                             tempHtml = "<a href='https://www.instagram.com/p/"+ post.shortcode +"'>" + tempHtml + "</a>";
                         }
                     }
 
                     html += tempHtml;
-                }   
+                }
             }
 
             return html;
@@ -193,3 +193,29 @@
         return result;
     }
 })(jQuery);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
