@@ -237,22 +237,67 @@ function hideElements() {
   for (var i = 0; i < elementsToHide.length; i++) {
       elementsToHide[i].style.display = 'none';
   }
+  // remove grids ativos
+  // Obtém todos os elementos com a classe 'menu-grid'
+    var elementosMenuGrid = document.getElementsByClassName('menu-grid');
+
+    // Itera sobre os elementos para verificar e modificar o estilo
+    for (var i = 0; i < elementosMenuGrid.length; i++) {
+        var elemento = elementosMenuGrid[i];
+
+        // Obtém o estilo atual do elemento
+        var estiloDisplay = window.getComputedStyle(elemento).getPropertyValue('display');
+
+        // Verifica se o estilo display é 'block'
+        if (estiloDisplay === 'block') {
+            // Se sim, define o estilo display como 'none'
+            elemento.style.display = 'none';
+        }
+    }
 }
 
 function showQuemSomos(){
 hideElements();
-var menuquemsomos = document.getElementById("menu-grid");
+var menuquemsomos = document.getElementById("menu-grid-quesomos");
 menuquemsomos.style.display = 'block';
 }
 
 function hideQuemSomos(){
-var menuquemsomos = document.getElementById("menu-grid");
+var menuquemsomos = document.getElementById("menu-grid-quesomos");
 menuquemsomos.style.display = 'none';
 showElements();
 }
 
+function showPraVoce(){
+  hideElements();
+  var menuquemsomos = document.getElementById("menu-grid-pravoce");
+  menuquemsomos.style.display = 'block';
+  }
+  
+  function hidePraVoce(){
+  var menuquemsomos = document.getElementById("menu-grid-pravoce");
+  menuquemsomos.style.display = 'none';
+  showElements();
+  }
 
+  function showParaEmpresa(){
+    hideElements();
+    var menuquemsomos = document.getElementById("menu-grid-paraempresa");
+    menuquemsomos.style.display = 'block';
+  }
+    
+  function hideParaEmpresa(){
+    var menuquemsomos = document.getElementById("menu-grid-paraempresa");
+    menuquemsomos.style.display = 'none';
+    showElements();
+  }
+
+<<<<<<< HEAD
 /* script do carrossel de logos dos parceiros */
+=======
+
+ /*carrossel paceiros  */
+>>>>>>> 7b694837b61cf0caa0294b83f919c51e2888ca7a
 
 const carousel = document.querySelector('.carousel-2');
 
