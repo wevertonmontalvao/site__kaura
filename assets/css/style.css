@@ -1889,7 +1889,6 @@ h3 {
   border: 1px solid #008e8e;
   text-align: start;
   padding: 20px;
-  height: 130px;
   margin-bottom: 20px;
 }
 
@@ -1995,7 +1994,7 @@ h3 {
 .carousel-container-2 {
   max-width: 1000px; /* Ajuste a largura conforme necessário */
   overflow: hidden;
-  margin-left: 750px;
+  margin-left: 120px;
 }
 
 
@@ -2028,6 +2027,28 @@ h3 {
 @keyframes slide {
   0% { transform: translateX(100%); }
   100% { transform: translateX(-100%); }
+}
+
+
+.box-tab-title{
+  min-width: 180px;
+  padding: 5px;
+}
+
+.box-tab-title .row{
+  background-color: rgb(208, 170, 124, 0.6);
+  margin-bottom: 5px;
+}
+
+
+.tab-title {
+  align-items: center;
+  display: flex;
+}
+
+.tab-content-bg{
+  background-color: rgb(208, 170, 124, 0.6);
+
 }
 
 
