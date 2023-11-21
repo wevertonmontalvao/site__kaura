@@ -252,7 +252,7 @@ showElements();
 }
 
 
-
+/* script do carrossel de logos dos parceiros */
 
 const carousel = document.querySelector('.carousel-2');
 
