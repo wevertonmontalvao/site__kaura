@@ -292,12 +292,7 @@ function showPraVoce(){
     showElements();
   }
 
-<<<<<<< HEAD
 /* script do carrossel de logos dos parceiros */
-=======
-
- /*carrossel paceiros  */
->>>>>>> 7b694837b61cf0caa0294b83f919c51e2888ca7a
 
 const carousel = document.querySelector('.carousel-2');
 
