@@ -2053,3 +2053,41 @@ h3 {
 
 
 
+/* aba parceiros footer*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.parceiros-section {
+  text-align: center;
+  background-color: #f0f0f0; /* Cor de fundo clara */
+  padding: 20px;
+}
+
+.logos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+
+
+.logos-container img {
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+  max-height: 70px; /* Define uma altura máxima menor para as logos */
+  width: auto;
+  height: auto;
+  margin: 10px;
+  filter: grayscale(100%); /* Aplica escala de cinza */
+  
+ 
+}
+
+
+
+
+
