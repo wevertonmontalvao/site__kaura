@@ -208,18 +208,31 @@
 
   
   //typed//
-  const typed = select('.typed')
-  if (typed) {
-    let typed_strings = typed.getAttribute('data-typed-items')
-    typed_strings = typed_strings.split(',')
-    new Typed('.typed', {
-      strings: typed_strings,
-      loop: true,
-      typeSpeed: 100,
-      backSpeed: 50,
-      backDelay: 2000
+    // Função para processar elementos Typed
+    function processarElementosTyped() {
+      // Recupera todos os elementos com a classe .typed
+      var elementosTyped = document.querySelectorAll('.typed');
+
+      // Itera sobre os elementos usando forEach
+      elementosTyped.forEach(function(elemento) {
+        // Obtém os itens de texto do atributo data-typed-items
+        var typedStrings = elemento.getAttribute('data-typed-items').split(',');
+
+        // Cria uma nova instância do Typed.js para cada elemento
+        new Typed(elemento, {
+          strings: typedStrings,
+          loop: true,
+          typeSpeed: 100,
+          backSpeed: 50,
+          backDelay: 2000
+        });
+      });
+    }
+
+    // Chama a função quando o documento estiver pronto
+    document.addEventListener('DOMContentLoaded', function() {
+      processarElementosTyped();
     });
-  }
 
   
 
