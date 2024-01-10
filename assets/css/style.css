@@ -137,6 +137,10 @@ h6 {
   text-transform: uppercase;
 }
 
+.row .btn-primary {
+  margin-top: 25px;
+}
+
 .btn-primary:hover{
   background-color: rgb(208, 170, 124);
   border: rgb(231, 143, 36);
@@ -670,6 +674,7 @@ section {
 --------------------------------------------------------------*/
 .cards {
   padding: 0 0 60px 0;
+  background-color: #f0f4f4;
 }
 
 .cards img {
@@ -2019,7 +2024,26 @@ h3 {
   padding-bottom: 20px;
   position: relative;
   color: rgb(208, 170, 124);
+  
 }
+
+
+/* .carrossel-title {
+  content: '';
+  display: block;
+  width: 200px;
+  height: 1px;
+  background: #00c1c1;
+  bottom: 0;
+  left: calc(50% - 100px);
+  margin-bottom: 70px;
+  color: rgb(208, 170, 124);
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+} */
+
 
 .carousel-2 {
   display: flex;
@@ -2072,13 +2096,35 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f0f4f4;;
 }
+
+
+/* .parceiros-section h2{
+  content: '';
+  display: block;
+  width: 200px;
+  height: 1px;
+  background: #00c1c1;
+  bottom: 0;
+  left: calc(50% - 100px);
+  margin-bottom: 70px;
+  color: rgb(208, 170, 124);
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+} */
+
+
 
 .parceiros-section {
   text-align: center;
   background-color: #f0f0f0; /* Cor de fundo clara */
   padding: 20px;
 }
+
+
 
 .logos-container {
   display: flex;
