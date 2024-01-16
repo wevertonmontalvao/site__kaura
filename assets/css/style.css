@@ -2144,11 +2144,35 @@ body {
   filter: grayscale(100%); /* Aplica escala de cinza */
 }
 
-#v-pills-home .list-group .list-group-item{
+#v-pills-tabContent .list-group .list-group-item{
   background-color: #e5e7f3; 
   border-color:#e5e7f3;
 
 }
+
+/* estilização da pagina mercados*/
+
+#v-pills-tabContent li {
+  padding: 3px;
+  margin-left: 10px;
+}
+
+#v-pills-tabContent h3 {
+  text-align: start;
+  margin-left: 10px;
+}
+
+#v-pills-tabContent h1  {
+    color:  rgb(208, 170, 124);
+    margin: 25px 0 25px 0;
+}
+
+#v-pills-tabContent p {
+  text-align: justify;
+  margin: 10px;
+}
+
+
 
 
 
