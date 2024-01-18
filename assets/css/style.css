@@ -2163,7 +2163,9 @@ body {
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 100px;
+  text-align: start;
+  
+  
   
 }
 
