@@ -2152,14 +2152,43 @@ body {
 
 /* estilização da pagina mercados*/
 
-#v-pills-tabContent li {
-  padding: 3px;
-  margin-left: 10px;
+ #v-pills-tabContent li {
+  padding: 2px;
+  margin-left: 50px;
+  
+  
+  
+  
+} 
+
+.container {
+  color: red;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 50px;
+  
+}
+
+.left {
+  float: left;
+  flex: 1;
+}
+
+.right {
+  float: right;
+  flex: 1;
+}
+
+
+
+#v-pills-tabContent h3 {
+  padding: 10px;
 }
 
 #v-pills-tabContent h3 {
   text-align: start;
-  margin-left: 10px;
+  margin-left: 50px;
 }
 
 #v-pills-tabContent h1  {
@@ -2169,7 +2198,9 @@ body {
 
 #v-pills-tabContent p {
   text-align: justify;
-  margin: 10px;
+  margin: 30px;
+  
+  
 }
 
 
