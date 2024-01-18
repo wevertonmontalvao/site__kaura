@@ -2155,28 +2155,36 @@ body {
  #v-pills-tabContent li {
   padding: 2px;
   margin-left: 50px;
-  
+ 
 } 
+
+.teste {
+  margin-left: 14%;
+  
+}
+
+
 
 .container-mercados {
   color: red;
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
-  text-align: start;
   
-  
-  
+    
 }
 
 .left {
   float: left;
   flex: 1;
+  
+  
 }
 
 .right {
   float: right;
   flex: 1;
+ 
 }
 
 
@@ -2198,8 +2206,7 @@ body {
 #v-pills-tabContent p {
   text-align: justify;
   margin: 30px;
-  
-  
+    
 }
 
 
