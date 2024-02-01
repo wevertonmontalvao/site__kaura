@@ -2158,34 +2158,11 @@ body {
  
 } 
 
-/* .teste {
-  margin-left: 14%;
-  
-} */
 
 
 
-.container-mercados {
-  color: red;
-  overflow: hidden;
-  display: flex;
-  flex-wrap: wrap;
-  
-    
-}
 
-.left {
-  float: left;
-  flex: 1;
-  
-  
-}
 
-.right {
-  float: right;
-  flex: 1;
- 
-}
 
 
 
