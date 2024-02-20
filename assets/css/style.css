@@ -2147,6 +2147,10 @@ body {
 #v-pills-tabContent .list-group .list-group-item{
   background-color: #e5e7f3; 
   border-color:#e5e7f3;
+}
+
+#v-pills-tabContent .list-group{
+ margin-right: 35px;
 
 }
 
@@ -2155,6 +2159,7 @@ body {
  #v-pills-tabContent li {
   padding: 2px;
   margin-left: 50px;
+  text-align: justify;
  
 } 
 
