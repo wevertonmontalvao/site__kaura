@@ -2011,7 +2011,7 @@ h3 {
 }
 
 .carousel-container-2 {
-  max-width: 1000px;  /*Ajuste a largura conforme necessário */
+  width: 1400px;  /*Ajuste a largura conforme necessário */
   overflow: hidden;
 }
 
