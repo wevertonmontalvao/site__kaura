@@ -2118,10 +2118,45 @@ body {
 
 
 
-.parceiros-section {
+/* .clientes-section {
   text-align: center;
-  background-color: #f0f0f0; /* Cor de fundo clara */
+  background-color: #f0f0f0; 
   padding: 20px;
+} */
+
+
+@media (min-width: 2000px) {
+  .carousel-container-2 {
+    width: 50%; 
+  }
+}
+
+.carrossel-clientes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel-container-2 {
+  width: 1400px;  /*Ajuste a largura conforme necessário */
+  overflow: hidden;
+}
+
+
+.carrossel-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: rgb(208, 170, 124);
+  
+}
+
+.carrossel-title{
+  color: #252623;
 }
 
 
