@@ -2141,6 +2141,7 @@ body {
 .carousel-container-2 {
   width: 1400px;  /*Ajuste a largura conforme necessário */
   overflow: hidden;
+  padding: 30px;
 }
 
 
@@ -2155,7 +2156,7 @@ body {
   
 }
 
-.carrossel-title{
+.carrossel-title-clientes{
   color: #252623;
 }
 
