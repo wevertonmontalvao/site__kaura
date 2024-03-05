@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Suporte t&eacute;cnico Homehost</title>
+<base href="https://homehost.com.br/" target="_blank">
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+
+
+<div class="head-logo">
+  <a href="https://www.homehost.com.br"><img src="/images/bglogoimg.png" alt=""></a>
+</div>
+      <div class="banner inner-banner wlcmesec">
+        <img src="/images/settingbnrimg.jpg" alt="">
+      </div>
+
+<div class="main main-inner wlcmesec">
+<div class="wrap">
+        <div class="main-heading">
+                <h2>Site em constru&ccedil;&atilde;o</h2>
+                <span class="border-bot border-bot2"></span>
+<br><br>
+  </div>
+
+<div class="wlcome-sec">
+<?php
+        if (strstr($_SERVER['SERVER_NAME'],"homehost") || preg_match('/\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/', $_SERVER['SERVER_NAME'], $ip_matches))
+        {
+?>                      Para que seu site seja publicado, altere os servidores DNS em seu dom&iacute;nio, de acordo com seu email de ativa&ccedil;&atilde;o.
+<?php
+        }
+?>
+
+  <ul class="wlcme-lstng">
+        <li>
+          <p>Caso precise da nossa ajuda na migra&ccedil;&atilde;o dos dados de seu site, por favor preencha o formul&aacute;rio contido no seguinte endere&ccedil;o:</p>
+          <a href="https://migracao.homehost.com.br">https://migracao.homehost.com.br/</a>
+        </li>
+        <li>
+          <p>Caso j&aacute; tenha seu site pronto e queira apenas efetuar o upload dos arquivos acompanhe nosso tutorial de envio de arquivos por FTP:</p>
+          <a href="https://www.homehost.com.br/faq/?artigo_id=121">Veja o passo a passo</a>
+        </li>
+        <li>
+          <p>Voc&ecirc; tamb&ecirc;m pode criar seu site pelo nosso construtor f&aacute;cil, em poucas horas, sem precissar de conhecimentos t&eacute;cnicos</p>
+          <a href="https://videos.homehost.com.br/construtor_facil/primeiros_passos/">Assista ao v&iacute;deo</a>
+        </li>
+  </ul>
+  <span class="wrd-sty"> <span>Caso necessite de ajuda</span> <br />Contate nosso <a href="https://www.homehost.com.br/suporte.php">suporte t&eacute;cnico</a></span>
+</div>
+
+
+        </div>
+    </div>
+</div>
+</html>
